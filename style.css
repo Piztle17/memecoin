@@ -598,6 +598,8 @@ footer .elefoot {
     }
     .ethboxsec3 {
         position: relative;
+        top: 0;
+        right: 0;
     }
     .dates5 {
         width: 86%;
@@ -607,6 +609,12 @@ footer .elefoot {
     }
     footer .elefoot {
         font-size: 12px;
+    }
+    .hbix h4 {
+        font-size: 10px;
+    }
+    .ethboxsec3 span  {
+        font-size: small;
     }
 }
 
