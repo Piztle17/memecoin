@@ -479,6 +479,26 @@ footer .elefoot {
 .mobileflex .immmdi {
     width: 9%;
 }
+.flexheadd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: transparent;
+}
+button.cnnect {
+    padding: 10px 15px;
+    background: transparent;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
+.btnn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
 @media screen and (max-width: 1000px) {
     .flexsec2 {
         flex-direction: column;
