@@ -485,6 +485,10 @@ footer .elefoot {
     justify-content: space-between;
     padding: 1rem;
     background: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 }
 button.cnnect {
     padding: 10px 15px;
@@ -492,6 +496,10 @@ button.cnnect {
     color: white;
     border: 1px solid;
     cursor: pointer;
+}
+button.cnnect:hover {
+    background: white;
+    color: #061936;
 }
 .btnn {
     display: flex;
