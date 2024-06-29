@@ -40,6 +40,12 @@ section {
     width: 60px;
     height: auto;
 }
+
+.videoammm {
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(180deg, #061A35 0%, #061A35ED 100%);
+}
 .sec1box2 img {
     width: 100%;
     height: auto;
@@ -449,3 +455,148 @@ footer .elefoot {
     width: 631px;
     margin: auto;
 }
+.sec1box11 {
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+.sec1box11 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.mobileflex {
+    display: none;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem auto;
+}
+.mobileflex .immmdi img {
+    width: 100%;
+    height: auto;
+}
+.mobileflex .immmdi {
+    width: 9%;
+}
+@media screen and (max-width: 1000px) {
+    .flexsec2 {
+        flex-direction: column;
+    }
+    .sec2box1, .sec2box2 {
+        width: 100%;
+        text-align: center;
+    }
+    .secflebtn {
+        justify-content: center;
+    }.boxsec3 {
+        width: 100%;
+    }
+    .ethboxsec3 {
+        position: absolute;
+        right: 19%;
+        top: 85%;
+        background: #061936;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .elementor-widget-container {
+        width: 358px;
+    }
+    .topbox h1 {
+        font-size: 23px;
+    }
+    .topbox {
+        width: 62%;
+    }
+    .swiper-slide {
+        width: 50% !important;
+    }
+    .flecaro {
+        width: 100%;
+    }.dates5  {
+        width: 45%;
+    }
+    .hotoo {
+        width: 82%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ethimg {
+        width: 13%;
+    }
+    .sec1box2 {
+        display: none;
+    }
+    .sec1box11 {
+        display: block;
+    }
+    .ethboxsec3 {
+        position: static;
+    }
+    .sec4 {
+        margin-top: 2rem;
+    } 
+    section {
+        width: 90%;
+    }
+    .hbix h1 {
+        font-size: 32px;
+    }
+    .hbix h4 {
+        font-size: 20px;
+    }
+    .flecaro img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s ease;
+    }
+    .swiper-slide {
+        width: 100% !important;
+    }
+    .flexsec6 {
+        flex-direction: column;
+    }
+    footer .elefoot {
+        width: 100%;
+    }
+    .sec1box1 img {
+        width: 86px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 586px) {
+    .topbox {
+        width: 91%;
+    }
+    .flexsec4dd  {
+        flex-direction: column;
+    }
+    .secflebtn {
+        flex-direction: column;
+    }
+    .sec4box h1  {
+        font-size: 32px;
+    }
+    .elementor-widget-container {
+        width: 100%;
+    }
+    .elementor-widget-container .elementor-heading-title {
+        font-size: 21px;
+    }
+    .ethboxsec3 {
+        position: relative;
+    }
+    .dates5 {
+        width: 86%;
+    }
+    .sec6 h1 {
+        font-size: 25px;
+    }
+    footer .elefoot {
+        font-size: 12px;
+    }
+}
+
