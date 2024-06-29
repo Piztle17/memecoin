@@ -524,6 +524,16 @@ footer .elefoot {
     }
 }
 @media screen and (max-width: 768px) {
+    .mobileflex {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        justify-content: center;
+        margin: 2rem auto;
+    }
+    .flexsec1b {
+        display: none;
+    }
     .ethimg {
         width: 13%;
     }
